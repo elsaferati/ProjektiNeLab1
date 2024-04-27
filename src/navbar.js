@@ -9,29 +9,6 @@ import { RiArrowDropDownLine, RiNotificationLine } from 'react-icons/ri';
 import { useState } from 'react';
 import './navbar.css';
 
- import {
-FaArrowDown,
-FaBell,
-FaSearch }
-from
-'react-icons/fa';
-// Importing Font Awesome icons
-
-import {
-RiArrowDropDownLine,
-RiNotificationLine }
-from
-'react-icons/ri';
-// Importing icons from Heroicons 
-
-import {
-useState }
-from
-"react";
-
-import
-"./navbar.css";
-
 
 
 const
