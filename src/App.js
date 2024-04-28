@@ -6,15 +6,19 @@ import Banner from "./components/Banner";
 import List from "./components/List";
 import Footer from "./components/Footer";
 import Navbar from './navbar';
+import Contact from './comp/contact';
 
 function App() {
   return (
+    <Router>
     <React.Fragment>
-      <Navbar></Navbar>
-      <Banner></Banner>
-      <List></List>
-      <Footer></Footer>
+      <Contact />
+      <Navbar />
+      <Banner />
+      <List />
+      <Footer />
     </React.Fragment>
+  </Router>
   );
 }
 
