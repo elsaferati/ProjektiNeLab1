@@ -1,0 +1,22 @@
+.list {
+    .row_posters {
+        display: flex;
+        overflow-x: auto;
+        gap: 20px;
+        padding-bottom: 20px;
+        scroll-behavior: smooth;
+
+        img {
+            max-height: 180px;
+            object-fit: contain;
+            transition: transform 450ms;
+            border-radius: 10px;
+            margin-right: 10px;
+            cursor: pointer;
+
+            &:hover {
+                transform: scale(1.09);
+            }
+        }
+    }
+}
